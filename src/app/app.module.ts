@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './diary/header/header.component';
 import { DiaryComponent } from './diary/diary.component';
 import { DiaryEntryComponent } from './diary/diary-events/diary-entry/diary-entry.component';
 import { DiaryPreviewComponent } from './diary/diary-events/diary-preview/diary-preview.component';
