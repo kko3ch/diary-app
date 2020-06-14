@@ -3,8 +3,8 @@ textarea{
 }
 .btn{
   background-color: sandybrown;
-  margin-right: 50px;
   font-weight: bold;
+  margin-left: 80%;
 }
 .btn:hover{
   background: transparent;

@@ -7,6 +7,14 @@
 .card-title{
   background: url('https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571866_960_720.jpg');
 }
+h3{
+  margin-left: 150px;
+  font-size: 25px;
+}
+h2{
+  font-family: monospace;
+  font-size: 20px;
+}
 .btn{
   background-color: sandybrown;
 }
