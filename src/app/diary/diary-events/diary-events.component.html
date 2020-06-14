@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-6">
+    <app-diary-form (addEntry)="addNewEntry($event)"></app-diary-form>
+  </div>
+  <div class="col-md-6">
+    <app-diary-preview></app-diary-preview>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="event">
+      <h3>EVENTS</h3>
+      <div class="flex-container wrap">
+        <app-diary-entry class="flex-item" *ngFor='let event of events; let i = index' [entry]='event' (isComplete)="removeEntry($event,i)"></app-diary-entry>
+      </div>
+    </div>
+  </div>
+</div>
+

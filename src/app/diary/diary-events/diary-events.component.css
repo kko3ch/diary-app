@@ -1,0 +1,19 @@
+h3{
+  background: url('https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571866_960_720.jpg');
+}
+.event{
+  height: auto;
+  width: 100%;
+  border: 5px white;
+  background-color: white;;
+  box-shadow: 2px black;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}

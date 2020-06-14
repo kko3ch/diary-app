@@ -1,0 +1,12 @@
+<div class="card" (click)="onSelectTitle()">
+  <h3>{{ entry.date | date : 'fullDate' }}</h3>
+  <div class="card-title">
+    <h4>{{ entry.title }}</h4>
+  </div>
+  <div class="card-body" *ngIf="selectedTitle">
+    <div class="card-text">
+      {{ entry.description }}
+    </div>
+    <button class="btn btn-danger"(click)="deleteEntry(true)">Delete</button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+textarea{
+  border-radius: 5px;
+}
+.btn{
+  background-color: sandybrown;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.btn:hover{
+  background: transparent;
+  color:darkgreen;
+}

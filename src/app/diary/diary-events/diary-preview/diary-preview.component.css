@@ -1,0 +1,15 @@
+.card{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: auto;
+  border-radius: 20px;
+}
+.card-title{
+  background: url('https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571866_960_720.jpg');
+}
+.btn{
+  background-color: sandybrown;
+}
+.btn:hover{
+  opacity: 0.8;
+}

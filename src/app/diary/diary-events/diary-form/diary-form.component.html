@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <h2>Add new Event</h2>
+  <hr>
+  <form action="" class="mb-3" #diaryForm='ngForm' (ngSubmit)="submitEntry()">
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" class="form-control"[(ngModel)]="newEntry.date" #date='ngModel'>
+    </div>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" name="title" class="form-control" id="title"[(ngModel)]="newEntry.title" #title="ngModel" required>
+      <div [hidden]="title.valid || title.pristine" class="alert alert-danger">
+        <p>Title is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="dive">Entry</label>
+      <textarea name="dive" id="dive" cols="51" rows="6" [(ngModel)]="newEntry.description" #dive="ngModel" required></textarea>
+      <div [hidden]="dive.valid || dive.pristine" class="alert alert-danger">
+        <p>An event is required</p>
+      </div>
+    </div>
+    <button type="submit" class="btn">Save</button>
+    <!-- <span type="button" class="btn" (addEntry)="previewEntry()">Preview</span> -->
+    
+  </form>
+  <!-- <p>Display {{ newEntry.title }}</p> -->
+</div>

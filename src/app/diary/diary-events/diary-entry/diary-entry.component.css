@@ -1,0 +1,23 @@
+.card{
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.card:hover{
+  background-color: burlywood;
+}
+.card-title{
+  color: darkgreen;
+  font-style: oblique;
+}
+.card-body{
+  padding-top: 2px;
+}
+button{
+  margin-top: 15px;
+}
+h3{
+  font-family: monospace;
+}
