@@ -1,6 +1,6 @@
 # Diary Application
 
-- An application for jouraling events.
+- An application for journaling events.
 
 ## Username
 
