@@ -1,0 +1,16 @@
+.jumbotron{
+  background-image: url('https://cdn.pixabay.com/photo/2016/02/23/18/30/lighter-1218248_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%; 
+}
+.jumbotron-title   {
+  position: absolute;
+  top: 300px;
+  left: 70%;
+}
+h3{
+  color: white;
+  font-size: 40px;
+}
